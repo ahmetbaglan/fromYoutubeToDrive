@@ -5,7 +5,7 @@ isMp3 = False
 
 url = "https://www.youtube.com/watch?v=sNhhvQGsMEc&list=PLFs4vir_WsTzcfD7ZE8uO3yX-GCKUk9xZ"
 
-saver = DriveSaver()
+saver = DriveSaver(isMp3=isMp3)
 downloader = Downloader()
 downloader.downloadList(url)
 
